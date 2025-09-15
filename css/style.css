@@ -62,3 +62,56 @@ nav a:hover{
     border: 1px solid #ccc;
     border-radius: 10px;
 }
+/* Fundo da página de login */
+.login-bg {
+    background-color: #f0f0f0; /* cinza clarinho */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa a tela inteira */
+    margin: 0;
+    padding: 0;
+}
+
+/* Card do login */
+.login-card {
+    background-color: #fff; /* branco */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título */
+.login-card h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Inputs */
+.login-card input[type="text"],
+.login-card input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Botão */
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background-color: #0056b3; /* azul mais escuro */
+}
